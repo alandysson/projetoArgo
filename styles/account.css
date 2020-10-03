@@ -1,0 +1,266 @@
+
+.container .principal{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.container #title{ 
+    margin-top: 30px; 
+    font-size: 34px; 
+    color: #00ac98;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.container .orderitens{
+    flex: 1;
+    flex-direction: column;
+    width: 55%;
+    background-color: white;
+    height: 50%;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    min-width: 50%;
+}
+
+.orderitens #pedi{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border-bottom: solid 1px #dadada; 
+}
+
+#pedi button{
+    margin: 15px 40px 15px 0px;
+    font-size: 20px;
+    background-color: white;
+    border-width: 0;
+    color: #878787;
+    outline: none;
+    cursor: pointer;
+}
+
+.orderitens #perf{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+#perf #qtd{
+    display: flex;
+    width: 200px;
+}
+
+#qtd #buttonmes{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px 40px 30px;
+}
+
+#buttonmes select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    color: #878787;
+    padding: 5px 10px 5px 15px;
+    border: solid 1px #00ac98;
+    border-radius: 15px;
+    font-weight: 700;
+    outline: none;
+    background-image: url('../imgs/select-down.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    -webkit-appearance: none;
+}
+
+.orderitens #dadosped{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#pedido{
+    font-size: 14px;
+}
+
+#numberped{
+    color: #00ac98 ;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#dadosped button{
+    width: 35px;
+    background-color: white;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.orderitens #dadosend{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: solid 1px #dadada;
+}
+
+#dadosend p{
+    margin-left: 36px;
+    line-height: 2;
+    margin-bottom: 5px;
+}
+
+.orderitens #item{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    border-bottom: solid 1px #dadada;
+}
+
+#item p{
+    font-size: 14px;
+}
+
+.orderitens #titles{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 35px;
+    margin-top: 30px;
+    color:  #00ac98;
+}
+
+#item #imgtxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#item #qtd{
+    display: flex;
+    width: 25%;
+    margin-left: 50px;
+}
+
+#qtd #buttonqtd{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#imgtxt #image{
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#image img{
+    margin-top: 15px;
+    width: 90px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#item span{
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.container .finish{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 600px;
+    margin-right: 4%;
+
+}
+
+.finish #orderfinish{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.finish #nproduct{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #dadada;
+}
+
+#nproduct a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #878787;
+    margin: 20px auto 15px 20px;
+}
+
+#nproduct p{
+    margin-left: 6px;
+    font-size: 19px;
+}
+
+#acessar{
+    margin-top: 40px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    height: 190px;
+    font-size: 12px;
+    border: solid 2px #808181;
+    border-radius: 10px;
+}
+
+#ass{
+    color: #808181;
+    margin: 10px;
+    font-size: 13px;
+}
+
+#acessar #info{
+    color: #00ac98;
+    line-height: 25px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+#info p{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+#info p span img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    margin-bottom: 2px;    
+}

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: #f6f6f6;
+}
+
+#headercolor{
+    width: 100%;
+    height: 3%;
+    background-color: #00ac98;
+}
+
+.container{
+    flex:1;
+    height: 750px;
+}
+
+.container .home{
+    width: 75%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+
+#start{
+    color: #808181;
+    font-size: 15px;
+    width: 250px;
+}
+
+#conta{
+    color: #00ac98;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#bv{
+    color: #00ac98;
+    font-size: 38px;
+    font-family: AlwynNewRounded-Bold, Alwyn New Rounded;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#acessar{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 210px;
+    height: 180px;
+    font-size: 12px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #808181;
+    border-width: 1px;
+}
+
+#ass{
+    color: #808181;
+    margin: 10px;
+    font-size: 11px;
+}
+
+#acessar #info{
+    color: #00ac98;
+    line-height: 25px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+#login{
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-color: #009487;
+    border-radius: 40px;
+    width: 220px;
+    color: white;
+    margin-right: 8%;
+    margin-top: 0;
+}
+
+#login #inputlogin{
+    margin-bottom: 20px;
+    height: 35px;
+    width: 90%;
+    border-radius: 35px;
+    border-width: 0;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    background-image: url('../imgs/login.png');
+    background-repeat: no-repeat;  
+
+}
+
+#login #inputsenha{
+    margin-bottom: 20px;
+    height: 35px;
+    width: 90%;
+    border-radius: 35px;
+    border-width: 0;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    background-image: url('../imgs/cadeado.png');
+    background-repeat: no-repeat;  
+
+}
+
+#login #remember{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    font-style: italic;
+}
+
+#login #remember input{
+    background-color: dimgray;
+    margin-right: 1px;
+}
+#login #btnLogin{
+    display: flex;
+    height: 38px;
+    background-color: #f4a81c;
+    border-radius: 35px;
+    border-width: 0;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    margin-top: 35px;
+    outline: none;
+    cursor: pointer;
+}
+
+#titulo{
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#forget{
+    color: #f4a81c;
+    margin-left: 55px;
+    text-decoration:none;
+}
+
+#logo{
+    width: 420px;
+    height: 120px;
+    margin-left: 16%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+#info p{
+    display: flex;
+    align-items: center;
+}
+
+#info p span img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+    
+}
+
+#rodape{
+    width: 210px;
+    height: 45px;
+    margin-left: 19%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+#social{
+    font-size: 13px;
+}
+
+.sociais{
+    margin-top: 10px;
+    align-items: center;
+}
